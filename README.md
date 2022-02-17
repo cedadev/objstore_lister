@@ -1,5 +1,7 @@
 # objstore_lister
 
+    Requires minio
+    $ pip3 install minio
 
     $ python3 get_keys.py http://ceda-archive-o.s3.jc.rl.ac.uk/spot-36786-2008
     ...
