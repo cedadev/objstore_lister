@@ -29,7 +29,7 @@ def get_bucketlist(url):
 
     # cache file written, open and read as a list
     with open(cachefile, "r") as f:
-        blist = f.read().split("\n")
+        blist = f.read().split("\n")[:-1]
     return blist
                              
 if  __name__ == "__main__":
